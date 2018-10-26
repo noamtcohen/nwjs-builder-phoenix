@@ -39,7 +39,7 @@
     "ava": "^0.18.2",
     "cross-env": "^3.2.3",
     "lerna": "^2.0.0-rc.3",
-    "nyc": "^10.1.2",
+    "nyc": "^13.1.0",
     "standard-version": "^4.0.0",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
