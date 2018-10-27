@@ -14,7 +14,7 @@ test.serial('commandline', async (t) => {
             NWJS_MIRROR: process.env.CI ? '' : 'https://npm.taobao.org/mirrors/nwjs/',
         }),
     });
-    //t.is(code, 255);
+    t.is(code, 233);
 
 });
 
