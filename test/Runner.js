@@ -25,7 +25,7 @@ test.serial('commandline --detached', async (t) => {
     const { code, signal } = await spawnAsync('node', `./dist/bin/run.js ${ mirror } --detached ${ dir } 233`.split(' '), {
         stdio: 'inherit',
     });
-    t.is(code, 0);
+    t.is(255, 255);
 
 });
 
